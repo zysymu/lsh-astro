@@ -18,5 +18,5 @@ We used [Tanoglidis et al.'s LSBG catalog](https://iopscience.iop.org/article/10
 
 # Results
 
-We obtain our results by performing searches with random keys (on `lsh.py`). We used the code available on `results_viz.py` to create or visualizations. The `figs/` directory contains the visualizations for our other keys.  
+We obtain our results by performing searches with random keys (on `lsh.py`). We used the code available on `results_viz.py` to create our visualizations. The `figs/` directory contains the visualizations for our other keys.  
 
