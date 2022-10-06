@@ -13,9 +13,7 @@ if __name__ == '__main__':
 
     spark = SparkSession.builder.appName('tcc').getOrCreate()
     spark.sparkContext.setLogLevel("ERROR")
-
-    print('COMECOU AEEE')
-
+    
 
     # load the data
     ## load des y3 gold data
