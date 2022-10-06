@@ -1,6 +1,6 @@
 # Similarity Search of Low Surface Brightness Galaxies in Large Astronomical Catalogs
 
-A PySpark-based Locality-Sensitive Hashing (LSH) model applied to the Dark Energy Survey Y3 Gold coadd catalog to find perform an approximate similarity search for Low Surface Brightness Galaxies.
+A PySpark-based Locality-Sensitive Hashing (LSH) model applied to the Dark Energy Survey Y3 Gold coadd catalog to perform an approximate similarity search for Low Surface Brightness Galaxies.
 
 ## About
 
