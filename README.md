@@ -2,6 +2,8 @@
 
 A PySpark-based Locality-Sensitive Hashing (LSH) model applied to the Dark Energy Survey Y3 Gold coadd catalog to perform an approximate similarity search for Low Surface Brightness Galaxies.
 
+A paper and a poster detailing the techniques were published in the LatinX in AI (LXAI) Research Workshop at NeurIPS 2022! ([paper](https://research.latinxinai.org/papers/neurips/2022/pdf/5_CameraReady.pdf))
+
 ## About
 
 Low Surface Brightness Galaxies (LSBGs) constitute an important segment of the galaxy population, however, due to their diffuse nature, their search is challenging. The detection of LSBGs is usually done with a combination of parametric methods and visual inspection, which becomes unfeasible for future astronomical surveys that will collect petabytes of data. Thus, in this work we explore the usage of Locality-Sensitive Hashing for the approximate similarity search of LSBGs in large astronomical catalogs. We use 11670190 objects from the Dark Energy Survey Y3 Gold coadd catalog to create an approximate $k$ nearest neighbors model based on the properties of the objects, developing a tool able to find new LSBG candidates while using only one known LSBG. From just one labeled example we are able to find various  known LSBGs and many objects visually similar to LSBGs but not yet catalogued. Also, due to the generality of similarity search models, we are able to search for and recover other rare astronomical objects without the need of retraining or generating a large sample.
